@@ -1,9 +1,11 @@
-<img src=".images/alternating.png">
+<img src=".images/forensics-disk.png">
 
-Running the: `strings Flag.rar` command reveals the following output:
+The 3 “disk images” given are actually jpg files (you can check by using `file <filename>`). Changing the extension to `.jpg` we can see that:
 
-<img src=".images/alternating_strings.png">
 
-Based on the name of the challanges I figure that the `:real_flag.txt` is an ADS, thus running `more < Flag.txt.txt:real_flag.txt` reveals the flag.
+<img src=".images/forensics-disk-add.png">
 
-`ctf{7ce5567830a2f9f8ce8a7e39856adfe5208242f6bce01ca9af1a230637d65a2d}`
+Now looking at the metadata of the files with `exiftool` we can also see that the first and last image have the title “Your paragraph text – 1” and “Your paragraph text – 2” respectively. So just put together the first and last picture to get the flag.
+
+`CTF{232293r-32dcvg33-beskdkfe}`
+
