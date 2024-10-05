@@ -1,8 +1,9 @@
-<img src=".images/ccccc.png">
+<img src=".images/alternating.png">
 
-A file is given containing:
-`5c4c4c6c4c3c4c3c5c4c4c6c7cbc6c3c7c3c6c8c6cfc7c5c7c4c5cfc6c3c6cfc7c5c7c4c5cfc6c3c7c4c3c0c5cfc6c3c6cdc7c9c5cfc6c3c6c2c3c0c7c9c5cfc6c3c3c4c6cec6c4c5cfc6c3c6cdc7c9c5cfc6c3c6c4c6cfc6c7c5cfc6c3c6c1c6cec6c4c5cfc6c3c6cdc7c9c5cfc6c3c6c3c3c4c3c7c7cdc0ca`
+Running the: `strings Flag.rar` command reveals the following output:
 
-Based on the description and the name of the challenge, I decided to remove all "c"s from the string and then process the resulting string in CyberChef using the Magic recipe.
+<img src=".images/alternating_strings.png">
 
-`TFCCTF{cshout_cout_ct0_cmy_cb0y_c4nd_cmy_cdog_cand_cmy_cc47}`
+Based on the name of the challanges I figure that the `:real_flag.txt` is an ADS, thus running `more < Flag.txt.txt:real_flag.txt` reveals the flag.
+
+`ctf{7ce5567830a2f9f8ce8a7e39856adfe5208242f6bce01ca9af1a230637d65a2d}`
