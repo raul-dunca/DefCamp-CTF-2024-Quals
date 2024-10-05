@@ -1,4 +1,4 @@
-<img src=".images/call-me-pliz.png">
+<img src="https://github.com/raul-dunca/assets/blob/main/.images_Defcamp_2024_Quals/call-me-pliz.png?raw=true">
 
 I just looked at the logs given to solve this challenge: 
 1) Provide the password obtained by the malware keylogger -> `SuperSecureP@ssw0rd`
