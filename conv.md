@@ -1,4 +1,4 @@
-<img src=".images/conv.png">
+<img src="https://github.com/raul-dunca/assets/blob/main/.images_Defcamp_2024_Quals/conv.png?raw=true">
 
 For this challenge, I had to reverse a convolution. My solution is kind of a brute force. Basically, I iterate through each printable ASCII char (we know that the plaintext only includes this) and I also took into account the previous values since a convolution is affected by the previous plain text characters. Then, if the sum was the same with the cipher text, I added the char to the plain text string.
 ```python
