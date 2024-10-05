@@ -1,6 +1,6 @@
 <img src=".images/i-got-a-virus.png">
 
-For this chellange just download the malware file and put in virustotal, there you can find all the information needed.
+For this challenge just download the malware file and put in virustotal, there you can find all the information needed.
 1) What is the SHA256 of the given file? ->  `4c1dc737915d76b7ce579abddaba74ead6fdb5b519a1ea45308b8c49b950655c`
 2) What is the malware family name? -> `petya`
 3) What type of malware is used for analysis? -> `trojan`
