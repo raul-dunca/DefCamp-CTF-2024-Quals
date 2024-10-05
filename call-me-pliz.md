@@ -1,9 +1,6 @@
-<img src=".images/alternating.png">
+<img src=".images/call-me-pliz.png">
 
-Running the: `strings Flag.rar` command reveals the following output:
-
-<img src=".images/alternating_strings.png">
-
-Based on the name of the challanges I figure that the `:real_flag.txt` is an ADS, thus running `more < Flag.txt.txt:real_flag.txt` reveals the flag.
-
-`ctf{7ce5567830a2f9f8ce8a7e39856adfe5208242f6bce01ca9af1a230637d65a2d}`
+I just looked at the logs given to solve this challenge: 
+1) Provide the password obtained by the malware keylogger -> `SuperSecureP@ssw0rd`
+2) Provide the malicious IP used in C2 -> `95.173.136.70`
+3) Identify the protection that the malware activity tried to disable -> `Google Play Protect`
